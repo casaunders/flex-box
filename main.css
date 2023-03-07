@@ -6,11 +6,12 @@
   
   main{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
   }
+
   nav{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     background-color:black;
     color:white;
   }
@@ -24,7 +25,7 @@
   
   nav ul{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     list-style:none;
   }
   
@@ -37,85 +38,23 @@
     color:black;
   }
   
-  .box1{
+  .box{
     display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    margin-top:30px;
-    margin-left:50px;
-    padding:20px;
-    border:2px solid bl;
-    width:950px;
-  }
-  
-  .box1 div{
-    width:100px;
-    height:100px;
-    background-color:black;
-    color:white;
-    border:2px solid gray;
-  }
-  .box2{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    gap:30px;
-    margin-top:30px;
-    margin-left:50px;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: left;
+    margin-top:15px;
+    margin-left:2px;
     padding:20px;
     border:2px solid black;
-    width:950px;
+    width:350px;
+    height:450px;
   }
 
-  .box2 div{
-    width:100px;
-    height:100px;
-    background-color:black;
-    color:white;
-    border:2px solid gray;
-  }
-
-  .box3{
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-start;
-    gap:30px;
-    margin-top:30px;
-    margin-left:50px;
-    padding:20px;
-    border:2px solid black;
-    width:950px;
-  }
-
-  .box3 div{
+  .box div{
     width: 100px;
     height: 100px;
     background-color:black;
     color:white;
     border:2px solid gray;
-    
-  }
-  .card1 ul li{
-    padding:6px;
-    margin-left:40px;
-  }
-
-  .card2 ul li{
-    padding:6px;
-    margin-left:40px;
-  }
-
-  .card3 ul li{
-    padding:6px;
-    margin-left:40px;
-  }
-  
-  .right{
-    border:2px solid black;
-    text-align:auto;
-    padding:15px;
-    margin-right:50px;
-    margin-top:30px;
-    width: 500px;
-    height:auto;
   }
